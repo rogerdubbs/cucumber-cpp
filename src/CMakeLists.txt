@@ -127,6 +127,6 @@ install(
 install(
     EXPORT      CucumberCpp
     NAMESPACE   CucumberCpp::
-    DESTINATION ${CMAKE_INSTALL_LIBDIR}/cmake
+    DESTINATION ${CMAKE_INSTALL_LIBDIR}/cmake/CucumberCpp
     FILE        CucumberCppConfig.cmake
 )
